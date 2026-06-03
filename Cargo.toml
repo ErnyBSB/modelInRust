@@ -1,0 +1,9 @@
+[package]
+name = "ibm_model_1_rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Educational implementation generated for IBM Model 1"]
+description = "A didactic Rust implementation of IBM Model 1 using EM training."
+license = "MIT"
+
+[dependencies]
