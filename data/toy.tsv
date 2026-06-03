@@ -1,0 +1,10 @@
+# Toy English-French parallel corpus (source<TAB>target).
+# Lines starting with '#' and blank lines are ignored.
+the house	la maison
+the book	le livre
+a house	une maison
+my book	mon livre
+the small house	la petite maison
+the small book	le petit livre
+my small house	ma petite maison
+a small book	un petit livre

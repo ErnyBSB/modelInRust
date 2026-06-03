@@ -1,0 +1,21 @@
+[package]
+name = "ibm_model_1_rust"
+version = "0.2.0"
+edition = "2021"
+authors = ["ErnyBSB"]
+description = "A didactic Rust implementation of IBM Model 1 trained with the Expectation-Maximization algorithm."
+license = "MIT"
+repository = "https://github.com/ErnyBSB/modelInRust"
+readme = "README.md"
+keywords = ["nlp", "machine-translation", "ibm-model-1", "em-algorithm", "alignment"]
+categories = ["science", "algorithms"]
+
+# This project deliberately uses only the Rust standard library so that the
+# whole EM pipeline stays auditable and dependency-free, as required by the
+# project specification (see spec, section 15: "no parallelism / no extra
+# machinery in the first version").
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
